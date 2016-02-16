@@ -1,0 +1,50 @@
+{
+  "name": "stock-portfolio-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "bower": "bower install",
+    "postinstall": "bower install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/threepears/stock-portfolio-exercise.git"
+  },
+  "eslintConfig": {
+    "env": {
+      "mocha": true,
+      "node": true,
+      "es6": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "/Users/CloseUpStudios/workspace/cohort11.json"
+    ],
+    "rules": {
+      "no-console": 0,
+      "no-magic-numbers": 0
+    }
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/threepears/stock-portfolio-exercise/issues"
+  },
+  "homepage": "https://github.com/threepears/stock-portfolio-exercise#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "bower": "^1.7.7",
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "lodash": "^4.3.0",
+    "mongoose": "^4.4.3",
+    "node-sass-middleware": "0.8.0",
+    "request": "^2.69.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.8.1"
+  }
+}
