@@ -1,6 +1,8 @@
 'use strict';
 
 const app = require("express")();
+const express = require("express");
+const path = require('path');
 const bodyParser = require("body-parser");
 const mongoose = require('mongoose');
 
@@ -23,6 +25,8 @@ const MONGODB_URL = `mongodb://${MONGODB_AUTH}${MONGODB_HOST}:${MONGODB_PORT}/${
 app.set('view engine', 'jade');
 
 app.locals.title = "Stock Portfolio App";
+
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());

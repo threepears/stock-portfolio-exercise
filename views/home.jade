@@ -1,0 +1,11 @@
+extends header
+
+block #content
+  .pagecontent.home
+    h1 Get Free Stock Quotes
+    form#quote(method='POST')
+      input(type='text', id='stockName', name='stockName', placeholder='Enter stock symbol here')
+      div
+        button#submitQuote(type='submit' class='btn btn-primary') Get Info
+
+

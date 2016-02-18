@@ -1,0 +1,14 @@
+extends header
+
+block #content
+  .pagecontent.stock
+    h1 #{indivStock}
+    .results
+      h2 #[span.blue Company Name:] #{companyname}
+      h2 #[span.blue Current Stock Price:] #{lastprice}
+      .stockinfo
+        .greystripe #[span.blue Today#{"'"}s Opening Price:] #{todaysopen}
+        .whitestripe #[span.blue Today#{"'"}s Low Price:] #{todayslow}
+        .greystripe #[span.blue Today#{"'"}s High Price:] #{todayshigh}
+      a(href='/buy' type='button' class='btn btn-warning') Buy Stock
+      a(href='/' type='button' class='btn btn-info') Search Again

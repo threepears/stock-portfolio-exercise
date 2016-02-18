@@ -1,0 +1,25 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/styles.css')
+
+    script(src='//code.jquery.com/jquery-1.12.0.min.js')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js')
+
+  body
+    .pageContainer
+      #topnav
+        #headerid
+          a(href='/') MyStocks
+        ul
+          li
+            a(href='/') Get Quote
+          li
+            a(href='/buy') Buy/Sell
+          li
+            a(href='/portfolio') My Portfolio
+    block #content
+
+    script(src='/scripts/stocks.js')
