@@ -4,7 +4,7 @@ A NSS classroom project building a stock quote/portfolio app
 
 ### Goal
 
-Create an app where you can look up stocks, buy them and add them to your portfolio, or sell them from your portfolio.
+Create an app where you can look up stocks, buy them and add them to your portfolio, or sell them from your portfolio.  Stock lookup is implemented; portfolio and buy/sell feature was not completed.
 
 ### Tools Used
 
