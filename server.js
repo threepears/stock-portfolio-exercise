@@ -16,6 +16,8 @@ const MONGODB_USER = process.env.MONGODB_USER || '';
 const MONGODB_PASS = process.env.MONGODB_PASS || '';
 const MONGODB_NAME = process.env.MONGODB_NAME || 'node-webserver';
 
+console.log(MONGODB_USER);
+
 const MONGODB_AUTH = MONGODB_USER
   ? `${MONGODB_USER}:${MONGODB_PASS}@`
   : '';

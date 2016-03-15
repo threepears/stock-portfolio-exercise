@@ -1,5 +1,4 @@
-$("body").on("click", "#submitQuote", function() {
-	var stockPick = $("#stockName").val();
-	console.log(stockPick);
-	$("#quote").attr("action", "/getquote/" + stockPick);
+$("body").on("click", "#submitQuote", () => {
+  var stockPick = $("#stockName").val();
+  $("#quote").attr("action", "/getquote/" + stockPick);
 });
