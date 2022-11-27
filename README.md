@@ -1,10 +1,10 @@
 # Stock Portfolio Exercise
 
-A NSS classroom project building a stock quote/portfolio app
+A NSS classroom project building a stock quote/portfolio app. (This is a precursor to my final capstone project, Taking Stock.)
 
 ### Goal
 
-Create an app where you can look up stocks, buy them and add them to your portfolio, or sell them from your portfolio.  Stock lookup is implemented; portfolio and buy/sell feature was not completed. (This is a precursor to my final capstone project, Taking Stock.)
+Create an app where you can look up stocks, buy them and add them to your portfolio, or sell them from your portfolio.  Stock lookup is implemented; portfolio and buy/sell feature was not completed.
 
 ### Tools Used
 
